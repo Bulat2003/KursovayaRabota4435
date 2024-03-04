@@ -1,0 +1,65 @@
+.container-enter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.reg{
+    text-decoration: none;
+}
+.input-class{
+    border: 2px solid #488286;
+    border-radius: 15px;
+    height: 50px;
+}
+.enter-button{
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #488286;
+    border: #488286;
+    color: white;
+    border-radius: 10px;
+}
+.reg-route{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    margin: 0;
+    color: #488286;
+}
+.none {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #373E40;
+}
+
+.email-password {
+    display: block;
+    padding: 0;
+    color: #373E40;
+    margin-top: 20px;
+}
+
+.input-class[type=password] {
+    font-size: 30px;
+    padding: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    width: 100%;
+}
+.input-class::placeholder {
+    color: #488286;
+}
+
+.enter-button:hover{
+    background-color: #366767;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}

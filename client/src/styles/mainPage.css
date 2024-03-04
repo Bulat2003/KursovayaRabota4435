@@ -1,0 +1,88 @@
+.fullPage{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #373E40;
+}
+.slogan-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 5%;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.control p {
+    color: #373E40;
+}
+.control img {
+    margin-right: 5px;
+}
+
+.offers-container {
+    margin: 20px;
+    width: 1300px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-bottom: 20px;
+    background-color: rgba(119, 135, 139, 0.25); /* Прозрачный фон */
+    width: 1300px;
+    display: flex;
+    padding: 15px;
+    border: 2px solid rgba(119, 135, 139, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer img {
+    width: 100px;
+    margin-right: 20px; /* Добавил отступ справа для изображения */
+}
+
+.offer-info,
+.offer-price,
+.offer-insurance,
+.offer-advance {
+    flex: 1; /* Расширяем элементы, чтобы занимали всё доступное пространство */
+}
+
+.name {
+    font-size: 20px;
+}
+
+.payload {
+    color: #373E40;
+}
+
+.button {
+    background-color: #488286;
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #366767;
+}
+
+
